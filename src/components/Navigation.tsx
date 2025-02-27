@@ -18,8 +18,10 @@ const Navigation = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           <div className="flex items-center">
-            <Flower2 className="h-8 w-8 text-rose-400" />
-            <span className="ml-2 text-xl font-serif text-gray-900">Elegant Events</span>
+            <a href="/" className="flex items-center hover:text-rose-500">
+              <Flower2 className="h-8 w-8 text-rose-400" />
+              <span className="ml-2 text-xl font-serif text-gray-900">Floral Cadence</span>
+            </a>  
           </div>
           
           {/* Desktop Navigation */}
