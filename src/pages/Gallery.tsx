@@ -30,12 +30,6 @@ const Gallery = () => {
       title: 'Garden Wedding',
       description: 'Outdoor wedding setup with natural floral arrangements',
     },
-    {
-      url: 'https://images.unsplash.com/photo-1505944270255-72b8c68c6a70?ixlib=rb-1.2.1&auto=format&fit=crop&w=2850&q=80',
-      category: 'party',
-      title: 'Corporate Event',
-      description: 'Sophisticated table settings for a corporate gathering',
-    },
   ];
 
   const filteredImages = filter === 'all' 
